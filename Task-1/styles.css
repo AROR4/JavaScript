@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f6e8d7;
+  color: #222;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: min(100%, 500px);
+  margin: 40px auto;
+  padding: 20px;
+  background: #f6f2eb;
+  border: 1px solid #d9c7b0;
+  border-radius: 12px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin: 0 0 20px;
+  text-align: center;
+  color: #666;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.todo-form input,
+.todo-form button,
+.clear-btn {
+  font-size: 15px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: medium;
+  border: 1px solid #d9c7b0;
+  border-radius: 5px;
+  background: #fff;
+  color: #222;
+}
+
+.todo-form input:focus {
+  outline: none;
+  border-color: #d9c7b0;
+}
+
+.todo-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  background: #9b5f2a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-form button:hover,
+.todo-form button:focus-visible {
+  background: #5d391a;
+}
+
+.todo-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+  color: #855327;
+}
+
+.clear-btn {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #855327;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #d9c7b0;
+  border-radius: 5px;
+}
+
+.todo-item.completed {
+  opacity: 0.7;
+}
+
+.todo-check {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.task-text {
+  flex: 1;
+  font-size: medium;
+  word-break: break-word;
+}
+
+.todo-item.completed .task-text {
+  text-decoration: line-through;
+  color: #85532798;
+}
+
+
+.delete-btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  font-size: medium;
+  color: #9b5f2a;
+
+  cursor: pointer;
+}
+
+.empty-state {
+  margin: 16px 0 0;
+  color: #85532798;
+  text-align: center;
+}
+
+.label {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .container {
+    margin: 20px;
+  }
+
+  .todo-form {
+    flex-direction: column;
+  }
+
+  .todo-meta {
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
