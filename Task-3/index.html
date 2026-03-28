@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery Lightbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Gallery</h1>
+    <p>Click any image to open it in a lightbox.</p>
+
+    <div class="gallery">
+      <img
+        class="thumbnail"
+        src="https://images.pexels.com/photos/34738691/pexels-photo-34738691.jpeg"
+        data-large="https://images.pexels.com/photos/34738691/pexels-photo-34738691.jpeg"
+        alt="Dense Forest Landscape in Bad Liebenzell"
+      >
+      <img
+        class="thumbnail"
+        src="https://images.pexels.com/photos/33329406/pexels-photo-33329406.jpeg"
+        data-large="https://images.pexels.com/photos/33329406/pexels-photo-33329406.jpeg"
+        alt="Serene Evening in a Foggy Park Landscape"
+      >
+      <img
+        class="thumbnail"
+        src="https://images.pexels.com/photos/8887627/pexels-photo-8887627.jpeg"
+        data-large="https://images.pexels.com/photos/8887627/pexels-photo-8887627.jpeg"
+        alt="Table and Chairs Inside a Dark Room"
+      >
+      <img
+        class="thumbnail"
+        src="https://images.pexels.com/photos/35008139/pexels-photo-35008139.jpeg"
+        data-large="https://images.pexels.com/photos/35008139/pexels-photo-35008139.jpeg"
+        alt="Silhouette of Birds at Sunset with Bare Trees"
+      >
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="closeBtn">&times;</span>
+    <img class="lightbox-image" id="lightboxImage" src="" alt="">
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
