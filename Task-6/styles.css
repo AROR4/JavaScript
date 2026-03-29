@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.sortable-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list-item {
+  padding: 14px;
+  margin-bottom: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: move;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.list-item.dragging {
+  opacity: 0.5;
+}
+
+.list-item.over {
+  background: #e3f2fd;
+  border-color: #2196f3;
+}

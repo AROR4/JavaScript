@@ -1,0 +1,64 @@
+{
+  "quiz": [
+    {
+      "question": "Which Indian state has the longest coastline?",
+      "options": ["Tamil Nadu", "Gujarat", "Maharashtra", "Andhra Pradesh"],
+      "answer": "Gujarat",
+      "explanation": "Gujarat has the longest coastline in India, stretching over 1,600 km along the Arabian Sea."
+    },
+    {
+      "question": "Which article of the Indian Constitution deals with the Right to Equality?",
+      "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+      "answer": "Article 14",
+      "explanation": "Article 14 ensures equality before the law and equal protection of the laws within India."
+    },
+    {
+      "question": "Which Indian space mission successfully reached Mars in its first attempt?",
+      "options": ["Chandrayaan-1", "Gaganyaan", "Mangalyaan", "RISAT"],
+      "answer": "Mangalyaan",
+      "explanation": "India's Mars Orbiter Mission (Mangalyaan) made India the first country to reach Mars orbit in its first attempt."
+    },
+    {
+      "question": "Which is the highest civilian award in India?",
+      "options": ["Padma Shri", "Padma Bhushan", "Padma Vibhushan", "Bharat Ratna"],
+      "answer": "Bharat Ratna",
+      "explanation": "Bharat Ratna is the highest civilian award in India, given for exceptional service in any field."
+    },
+    {
+      "question": "Which Indian city is known as the 'Silicon Valley of India'?",
+      "options": ["Hyderabad", "Bangalore", "Pune", "Chennai"],
+      "answer": "Bangalore",
+      "explanation": "Bangalore (Bengaluru) is called the Silicon Valley of India due to its dominance in the IT industry."
+    },
+    {
+      "question": "Which Indian river flows westward into the Arabian Sea?",
+      "options": ["Ganga", "Yamuna", "Narmada", "Brahmaputra"],
+      "answer": "Narmada",
+      "explanation": "The Narmada River flows westward and drains into the Arabian Sea, unlike most major Indian rivers."
+    },
+    {
+      "question": "Who was the first woman Chief Minister of an Indian state?",
+      "options": ["Indira Gandhi", "Sarojini Naidu", "Sucheta Kriplani", "Jayalalithaa"],
+      "answer": "Sucheta Kriplani",
+      "explanation": "Sucheta Kriplani became the first woman Chief Minister of Uttar Pradesh in 1963."
+    },
+    {
+      "question": "Which Indian state has the highest literacy rate as per recent data?",
+      "options": ["Tamil Nadu", "Maharashtra", "Kerala", "Karnataka"],
+      "answer": "Kerala",
+      "explanation": "Kerala consistently ranks highest in literacy rate in India due to its strong focus on education."
+    },
+    {
+      "question": "Which mountain range separates the Deccan Plateau from the Indo-Gangetic Plain?",
+      "options": ["Western Ghats", "Eastern Ghats", "Aravalli Range", "Vindhya Range"],
+      "answer": "Vindhya Range",
+      "explanation": "The Vindhya Range acts as a traditional boundary between northern and southern India."
+    },
+    {
+      "question": "Which Indian organization is responsible for conducting the civil services examination?",
+      "options": ["SSC", "UPSC", "ISRO", "NITI Aayog"],
+      "answer": "UPSC",
+      "explanation": "The Union Public Service Commission (UPSC) conducts the civil services examination in India."
+    }
+  ]
+}

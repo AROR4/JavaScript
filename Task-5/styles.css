@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #170f2a;
+
+}
+
+main{
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#start-btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+#start-btn:hover{
+    background: #5a54d1;
+}
+
+.next-btn{
+  margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.next-btn:hover{
+    background: #5a54d1;
+}
+ 
+.hidebutton{
+    visibility: hidden;
+}
+
+
+
+#nxt-btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+#nxt-btn:hover{
+    background: #5a54d1;
+}
+
+.option {
+  background: #f1f5f9;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  font-size: 15px;
+}
+
+.selected {
+  background: #0087fe;
+  color: white;
+  border: 1px solid #e03a3a;
+}
+
+.score {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.wrong-questions {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #e03a3a;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff5f5; /* light red background */
+  text-align: left;
+}
+
+.wrong-questions h2 {
+  margin-bottom: 15px;
+  color: #b91c1c;
+}
+
+.wrong-item {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #f5c2c2;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.wrong-item h3 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #1f2937; /* dark text */
+}
+
+.wrong-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #16a34a; /* green for correct answer */
+  font-weight: 500;
+}
