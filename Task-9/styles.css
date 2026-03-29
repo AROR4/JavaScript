@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+#loading {
+  text-align: center;
+  margin: 20px;
+  display: none;
+}
